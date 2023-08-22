@@ -1,0 +1,612 @@
+@font-face {
+    font-family: yubo;
+    src: url(./RightGrotesk-CompactBlack.otf);
+}
+@font-face {
+    font-family: face;
+    src: url(./RightGrotesk-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: yubo;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    overflow-x: hidden;
+}
+
+#main #page1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+   /* background-size: cover; */
+    position: relative;
+}
+
+#nav {
+    height: 110px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: fixed;
+    z-index: 11;
+}
+#menu{
+    height: 20px;
+    width: 28px;
+    /* background-color: blue; */
+}
+#line{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+#nav>img{
+    height: 70px;
+    /* background-color: blue; */
+}
+#nav-part2{
+    background-color: #000;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 20px;
+   border-radius: 50px;
+}
+#nav-part2 i{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#nav-part2 img{
+    height: 33px;
+}
+#nav-part2 #straight{
+    background-color: white;
+    height: 25px;
+    width: 2px;
+     margin-right: 10px;
+}
+#page1 h1{
+    font-size: 150px;
+    font-family: yubo;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFE30A;
+    line-height: 128px;
+    text-align: center;
+}
+#page2{
+    height: 130%;
+    width: 100%;
+    background-color: #FFE30A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page2-left{
+    /* height: 80%;
+    width: 30%;
+    background-color: blue; */
+    margin-top: 11%;
+}
+#page2-left h1{
+    font-size: 135px;
+    font-family: yubo;
+    line-height: 120px;
+    margin-right: 22px;
+}
+#page2-left img{
+margin-top: 50px;
+margin-right: 10px;
+}
+#page2-right{
+    height: 80%;
+    width: 30%;
+    margin-top: 11%;
+    margin-right: 4%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#page2-right #phone {
+    height: 100%;
+    position: absolute;
+}
+#lit{
+    position: absolute;
+    top: 14%;
+    right: -25%;
+}
+#chat{
+    position: absolute;
+    top: 32%;
+    left: -21%;
+    height: 148px;
+}
+#hey{
+    position: absolute;
+    bottom: 16%;
+    left: -27%;
+    height: 130px;
+}
+#yubo{
+    position: absolute;
+    height: 177px;
+    bottom: 0;
+    right: -29%;
+}
+#lets{
+    position: absolute;
+    height: 88px;
+    bottom: 25%;
+    right: -45%;
+}
+/* creation and designing of page 3  */
+#page3{
+    height: 350%;
+    width: 100%;
+    background-color: #FFE30A;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-size: cover;
+    position: relative;
+}
+
+#page3-part1{
+    /* background-color: red; */
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#page3-part1 h1{
+    font-size: 135px;
+    line-height: 125px;
+    font-family: yubo;
+    font-weight: 700;
+    color: #FFE30A;
+   
+}
+#page3-part1 #div2{
+    /* background-color: blue; */
+    width: 28%;
+    margin-left: 150px;
+    margin-top: 2%;
+}
+#page3-part1 #div2 p{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 100px;
+    color: #fff;
+    font-family: face;
+}
+#page3-part1 #div2 a {
+    color: #0a0a0af6;
+    background-color: #FFE30A;
+    border: 2px solid #FFE30A;
+    font-size: 18px;
+    font-family: yubo;
+    font-weight: 100;
+    padding: 15px 30px 17px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10%;
+}
+#page3-part1 #div2 a:hover{
+    background-color: #0a0a0a96;
+    color: #FFE30A;
+   border: 2px solid #FFE30A;
+    transition: all ease 0.5s;
+}
+/* ----------designining part-2 of page3 */
+#page3-part2{
+    /* background-color: blue; */
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 4%;
+}
+#page3-leftside{
+    height: 22%;
+    width: 29%;
+    /* background-color: green; */
+    display: flex;
+    align-items: flex start;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 42%; 
+
+}
+#page3-leftside p{
+    color: white;
+   font-family: face;
+    font-size: 30px;
+    margin-top: 34%;
+
+}
+#page3-leftside a{
+    color: #0a0a0adc;
+    background-color: #FFE30A;
+    border: 2px solid #FFE30A;
+    font-size: 16px;
+    font-family: yubo;
+    font-weight: 100;
+    padding: 15px 30px 17px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    width: 128px;
+    margin-top: 10%;
+}
+#page3-leftside a:hover{
+    background-color: #0a0a0a96;
+    color: #FFE30A;
+   border: 2px solid #FFE30A;
+    transition: all ease 0.5s;
+}
+#page3-leftside img{
+    position: absolute;
+   top: 0;
+}
+#page3-rightside{
+    height: 95%;
+    width: 29%;
+    position: absolute;
+}
+#page3-rightside img{
+    height: 66%;
+    width: 120%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 56%;
+    border-radius: 40px;
+}
+svg{
+        transform: scaleX(-1) scaleY(-1);
+        position: absolute;
+        z-index: 1;
+        font-family: yubo;
+        letter-spacing: .05em;
+        pointer-events: none;
+        font-size: 70px;
+        left: -18%;
+        top: 10%;
+        width: 150%;
+        overflow: hidden;
+        vertical-align: middle;
+}
+#page3-part3{
+    width: 100%;
+    /* background-color: red;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   margin-top: 100px;
+}
+#page3-part3 h1{
+    font-size: 130px;
+    line-height: 130px;
+    color: #FFE30A;
+}
+#page3-part3 button{
+    color: #0a0a0adc;
+    background-color: #FFE30A;
+    border: 2px solid #FFE30A;
+    font-size: 18px;
+    font-family: yubo;
+    font-weight: 100;
+    padding: 16px 40px 19px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -6%;
+}
+#page3-part3 span img
+{height: 50px;
+width: 90px;}    
+
+#page3-part3 img{
+    position: absolute;
+    top: 89%;
+    left: 18.25%;
+    z-index: 1;
+    height: 98px;
+    width: 87px;
+}
+#page4{
+    height: 230%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-size: cover;
+    background-color:#151400;
+    position: relative;
+    z-index: 2;
+}
+#page4 .elem{
+    height: 447px;
+    width: 336px;
+    /* background-color: red; */
+    border-radius: 50px;
+    position: absolute;
+    top: 14%;
+    left: 16%;
+    overflow: hidden;
+}
+#page4  #elem2{
+    height: 500px;
+    width: 469px;
+    top: 0%;
+    left: 48%; 
+}
+#page4 #elem3{
+    height: 447px;
+    width: 387px;
+    top: 39%;
+    left: 51%;
+}
+#page4 .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ .elem #overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #0000008a;
+    position: absolute;
+    top: 0;
+    transition: all ease 0.3s;
+}
+.elem:hover #overlay{
+    background-color: #ffffff09;
+}
+.elem h4{
+    top: 4%;
+    position: absolute;
+    left: 72%;
+    font-size: 18px;
+    background-color: #8E6BFF;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+.elem h2{
+    color: white;
+    font-size: 48px;
+    top: 72%;
+    position: absolute;
+    left: 8%;
+}
+.elem h5{
+    color: white;
+    font-size: 18px;
+    top: 89%;
+    position: absolute;
+    left: 9%;
+    font-weight: 100;
+    font-family: face;
+}
+#elem2 h4{
+    background-color: #FF5252;
+    left:9%;
+    font-size: 17px;
+}
+#elem2 h2{
+    width: 90%;
+    font-size: 45px;
+    line-height: 42px;
+    top: 51%;
+   
+}
+#elem3 h4{
+    left: 9%;
+    background-color: #FFE500;
+}
+#elem3 h2{
+    width: 90%;
+    font-size: 45px;
+    line-height: 42px;
+    top: 51%;
+}
+#page4>img{
+    position: absolute;
+    bottom: -120px;
+    height: 28%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+/* #footer{
+    background-color: #976BFF;
+    height: 102%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+}
+
+#footer h5{
+    font-size: 30px;
+    font-weight: 600;
+  
+}
+#footer ul{
+    text-decoration: none;
+    list-style: none;
+}
+#footer  ul li a{
+    font-size: 20px;
+   font-family: face;
+   color: #000000d5;
+   font-weight: 100;
+   line-height: 25px;
+   text-decoration: none;
+   
+}
+#footer #div1{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+#footer #div2{
+position: absolute; 
+top: 30%;
+left: 21%;
+}
+#footer #div3{
+position: absolute;
+top: 30%;
+left: 44%;
+}
+#footer #div4{
+position: absolute;
+top: 30%;
+left:64% ;
+width: 15%;
+}
+#footer #div5{
+    position: absolute;
+top: 30%;
+left: 87%;
+}
+ li:nth-child()::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    left: 50%;
+   bottom: -1;
+    transform: translate(-50%,-50%);
+
+}
+ /* li:nth-child(3)::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    left: 50%;
+   bottom: -1;
+    transform: translate(-50%,-50%);
+
+} */ 
+ #footer{
+    width: 100%;
+    height: 102%;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: #976BFF;
+    /* position: relative; */
+    
+}
+#wrapper{
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    /* padding: 150px 20px 50px 20px; */
+}
+
+.pack h3{
+  font-size: 30px;  
+  font-family: yubo;
+  /* padding-bottom: 10px; */
+}
+/* .pack #chng_pad{
+    padding-bottom: 10px;
+} */
+#wrapper h5{
+    font-size: 20px;
+    font-family: face;
+    font-weight: 500;
+    padding: 2px 0;
+    line-height: 20px;
+    margin: 5px 0;
+    width: fit-content;
+    position: relative;
+}
+ h5::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 0;
+    transition: all linear .3s;
+    
+
+   
+}
+h5:hover::after{
+    width: 100%;
+}
+#footer #images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 70px 485px;
+}
+#downside{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: -7%;
+}
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    gap: 15px;
+}
+#sublast h3{
+    font-weight: 100;
+    font-family: face;
+}
+#sublast{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 16%;
+    gap: 160px;
+
+}
